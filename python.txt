@@ -1,0 +1,22 @@
+# importer des packages Python
+
+# installer des packages avec Pip
+
+Pour installer un packer : 
+
+==> pip install <nom du package >
+
+Pour voir le package installer : 
+
+==> pip freeze
+
+Nous allons faire un test, on va importer deux application et nous allons le voir.
+
+==> pip install requests
+==> pip install bs4
+==> pip freeze 
+
+N.B. : pour importer une fonction, il faut ecrire 
+
+==> import requests
+==> requests.get() : pour faire appel à la requete.
