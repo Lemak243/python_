@@ -20,3 +20,6 @@ N.B. : pour importer une fonction, il faut ecrire
 
 ==> import requests
 ==> requests.get() : pour faire appel à la requete.
+
+Linux pour les développeur
+
