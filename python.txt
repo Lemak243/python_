@@ -22,4 +22,9 @@ N.B. : pour importer une fonction, il faut ecrire
 ==> requests.get() : pour faire appel à la requete.
 
 Linux pour les développeur
+extraire des données avec linux 
 
+-> la première étape consiste à installer : requests
+-> la deuxième étape consiste à installer : Beautiful Soup
+
+==> pip install beautifulsoup4
