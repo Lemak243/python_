@@ -28,3 +28,5 @@ extraire des données avec linux
 -> la deuxième étape consiste à installer : Beautiful Soup
 
 ==> pip install beautifulsoup4
+
+Il faut import le package csv 
