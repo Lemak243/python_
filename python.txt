@@ -44,4 +44,19 @@ ensuite on lance jupyter
 
 ==> anaconda-navigator
 
+exemple d'une opération de calcul 
+
+==> compteCourant = 500
+==> compteEpargne = 1000
+
+==> compteEpargne = compteEpargne + 100
+==> compteCourant = compteCourant - 50
+
+==> nombreJoursEconomiser = (5000 - compteCourant) / 500
+
+==> compteCourant = compteCourant + ( 30 - 10 ) * 10
+
+==> print(nombreJoursEconomiser)
+==> print(compteCourant)
+
 
