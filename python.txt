@@ -59,4 +59,47 @@ exemple d'une opération de calcul
 ==> print(nombreJoursEconomiser)
 ==> print(compteCourant)
 
+# mixer plusierus valeurs numérique
+
+==> a = 14.0
+==> a = int(a)
+print(a)
+
+# la concaténation de variable
+
+==> ville = "Sydney"
+==> nombreVoyages = 5
+==> histoire = "J'ai déjà été à " + ville + " " + str(nombreVoyages) + " fois"
+==> print(histoire) # => "J'ai déjà été à Syndey 5 fois"
+
+# nous allons ecrire nos propore fonction
+
+def afficherPerimetre():
+    cote1 = 6
+    cote2 = 4
+    cote3 = 3
+    
+    perimetre = cote1 + cote2 + cote3
+    print(perimetre)
+    
+afficherPerimetre()
+
+# nous allons maintement définir nos parametre 
+
+def afficherPerimetre(cote1, cote2, cote3) :
+    perimetre = cote1 + cote2 + cote3
+    print(perimetre)
+    
+afficherPerimetre(25, 254,4)
+
+# nous allons utiliser un retour sur la fonction
+
+def afficherPerimetre(cote1, cote2, cote3) :
+    perimetre = cote1 + cote2 + cote3
+    return perimetre
+
+yves1 = afficherPerimetre(5,587,4)
+yves2 = afficherPerimetre(55,445,4)
+print("Le périmettre de mon premier triangle est", yves1, "et celle de mon second est", yves2)
+
 
