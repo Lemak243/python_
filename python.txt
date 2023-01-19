@@ -103,3 +103,100 @@ yves2 = afficherPerimetre(55,445,4)
 print("Le périmettre de mon premier triangle est", yves1, "et celle de mon second est", yves2)
 
 
+# nous allons apprendre à créer une liste en python 
+
+==> nomClient = ['Georges Dupont','Luc Martin', 'Lucas Anderson','Alexandre Petit']
+// nous venons de créer notre liste
+
+==> nomClient[0]='Georges Dupond'
+// nous venons de modifier notre client 1
+
+==> print(nomClient[0])
+// nous venons d'afficher notre client 1
+
+==> print(nomClient[-1])
+// nous venons d'afficher le dernier client
+
+==> print(nomClient[1:3]) 
+// nous venons d'afficher deux client entre 1 et 2
+
+==> print(nomClient[:2])
+// nous venons d'afficher nos deux premiers client
+
+# nous allons apprendre à ajouter / supprimer des informations de notre liste
+
+==> liste = []
+// nous venons de créer une liste vide
+
+==> liste.append(7)
+// nous venons d'ajouter la valeur 7 à notre liste
+
+==> liste.append(5)
+// nous venons d'ajouter la valeur 5 à notre liste
+
+==> print(liste)
+// nous affichons la valeur de notre liste
+
+==> liste.insert(1,12)
+// nous allons  ajouter la valeur 12 à l'index 1
+
+==> liste[0] = 4
+// nous allons modifier la valeur de l'index 0 par la valeur 4 
+
+==> liste.remove(12)
+// nous allons supprimer la valeur 12 
+
+==> liste.index(5)
+// nous cherchons a savoir l'index de la valeur 5 
+
+==> liste.extend([1,2,3])
+nous allons ajouter une liste dans une liste 
+
+==> del liste[3]
+nous venons de supprimer l'index 3
+
+# nous allons executé une fonction qui va nous permettre de savoir la taille de notre liste
+
+==> len(liste)
+
+# nous allons utiliser les dictionnaire 
+
+==> comptes = {"Georges Dupont" : 10000, "Luc Martin":150, "Lucas Anderson":300, "Alexandre Petit": 1800.74}
+// nous venons de créer un dictionnaire 
+
+==> print(comptes["Luc Martin"]) 
+// nous venons d'afficher un dictionnaire
+
+# nous allons manupuler les élément d'un dictionnaire 
+
+==> comptes['Georges Dupont']-=2000
+// nous venons de soustraire de l'argent au compte de Georges.
+
+==> comptes['Cyril Andreje']=1000
+// nous venons de créer un nouveau client 
+
+==> print(comptes['Cyril Andreje'])
+// on affiche le nouveau client
+
+==> comptes.pop('Luc Martin')
+// nous allons supprimer ce client
+
+==> len(comptes)
+// nous allons affiche le nombre de client
+
+# nous allons manupuler les tuples
+
+==> nom_tuple = (1,2,3,'a','b')
+// nous venons de créer notre tuples
+
+==> print(nom_tuple[1])
+// nous allons affiche la valeur de notre tuples
+
+==> a, b = (1, 'pomme')
+// nous affectons une valeur aux valeur de notre tuple
+
+==> print(a)
+// nous allons afficher la valeur a
+
+==> print(b)
+// nous allons afficher la valeur de b
