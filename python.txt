@@ -200,3 +200,23 @@ nous venons de supprimer l'index 3
 
 ==> print(b)
 // nous allons afficher la valeur de b
+
+# Afficher des informations s'ils sont disponible
+
+==> nom = input("Quel est votre prenom ?")
+==> if len(nom)>0:
+        print("Hello", nom, "!")
+    else:
+        print("Hello Word")
+
+# Gerez un enchainement de condition 
+
+==> compte = input("Quel est le solde de votre compte ? ")
+==> compte = int(compte)
+
+if compte >= 10000:
+    print("Prêt accordé")
+elif compte >= 100 and compte < 10000:
+    print("Prêt en cours de validation : à l'étude")
+else:
+    print("Prêts refusé")
