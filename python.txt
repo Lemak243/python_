@@ -220,3 +220,43 @@ elif compte >= 100 and compte < 10000:
     print("Prêt en cours de validation : à l'étude")
 else:
     print("Prêts refusé")
+
+# la boucle for 
+
+Nous allons créer une boucle sur une collection 
+
+==> myList = [7,2,4,10]
+    for elt in myList:
+        print(elt)
+
+N.B : il est possible de l'utiliser dans une chaine de caractère
+
+==> monString = "Eléments"
+    for elt in monString:
+        print(elt)
+
+# utilisation des condition avec une boucle while
+
+==> nombreArbres = 0 
+    while nombreArbres < 10:
+        nombreArbres += 1
+        print("J'ai planté", nombreArbres, "arbres")
+    print("j'ai une chouette forêt")
+
+# utilisation des certaine instruction dans la boucle
+
+==> for i in range(10):
+    print(i)
+    if(i==2) or (i==5):
+        print("Cas spécial")
+        continue
+        
+    print("i != 2 & i != 5")
+
+#exemple : 2 
+
+==> panier = ["pomme", "orange", "banane"]
+    for fruit in panier:
+        if fruit == "orange":
+            print("J'ai une", fruit, "!")
+            break
